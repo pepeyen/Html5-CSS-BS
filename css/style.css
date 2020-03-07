@@ -1,0 +1,185 @@
+body
+{
+    background-color: #15202B;
+}
+header
+{
+    background-color:  #15202B;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 1px;
+}
+nav
+{
+    background-color: #15202B;
+}
+
+img
+{
+    width: 120px;
+    height: 110px;
+
+}
+.container .s1 img ,.s2 img ,.s3 img
+{
+    padding: 15px;
+    width: 400px;
+    height: 300px;
+}
+
+ul /*elemento container*/
+{ 
+   
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+ul.ul2 ul /*elemento container*/
+{ 
+   
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+ .debug
+{
+
+    text-decoration: none;
+    background-color: white;
+    color: yellow;
+    display: table-cell;
+    font-size: 20px;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 30px;
+    border-radius: 0px;
+    
+}
+.debug-btn
+{
+    text-decoration: none;
+    background-color: white;
+    color: yellow;
+    display: table-cell;
+    font-size: 20px;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 30px;
+    border-radius: 0px;    
+}
+.debug-btn:hover
+{
+    opacity: 0;
+}
+.debug-btn-gif
+{
+    
+}
+a
+{
+
+    text-decoration: none;
+    background-color: #15202B;
+    color: yellow;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 30px;
+    border-radius: 0px;
+  
+}
+ .a2
+{
+
+    text-decoration: none;
+    background-color: #15202B;
+    color: black;
+    display: table-cell;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+    
+}
+.lin
+{
+    
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+a:hover
+{
+    background-color: rgb(210, 210, 210);
+    color: white;
+}
+.a2:hover
+{
+    background-color: rgb(210, 210, 210);
+    color: white;
+}
+.debug:hover
+{
+    background-color: rgb(210, 210, 210);
+    color: white;    
+}
+.container
+{
+    background-color: #15202B;
+    display: table; /*transformando o elemento container em tabela*/
+    width: 100%; /*tamanho do container*/
+    vertical-align: middle;
+}
+.s1
+{
+     /*cor de fundo da section*/
+     background-color: #15202B;
+     /*elementos dispostos em linha*/
+     display: table-cell;
+     /* Porcentagem de ocupacao do elemento no container*/
+     width: 33%;
+}
+.s2
+{
+   
+    background-color: #15202B
+     display: table-cell;
+     width: 33%;
+}
+.s3
+{
+    background-color: #15202B;
+    display: table-cell;
+    width: 33%;
+}
+
+footer
+{
+    background-color: #15202B;
+    color: rgb(210, 210, 210);;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+    height: 80px;
+    border-radius: 5px;
+    margin-top: 2px;
+}
