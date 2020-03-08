@@ -1,17 +1,17 @@
 body
 {
-    background-color: #15202B;
+    background-color: white;
 }
 header
 {
-    background-color:  #15202B;
+    background-color:  white;
     margin-bottom: 5px;
     border-radius: 5px;
     padding: 1px;
 }
 nav
 {
-    background-color: #15202B;
+    background-color: white;
 }
 
 img
@@ -89,7 +89,7 @@ a
 {
 
     text-decoration: none;
-    background-color: #15202B;
+    background-color: white;
     color: yellow;
     display: table-cell;
     font-size: 20px;
@@ -107,7 +107,7 @@ a
 {
 
     text-decoration: none;
-    background-color: #15202B;
+    background-color: white;
     color: black;
     display: table-cell;
     font-size: 15px;
@@ -144,7 +144,7 @@ a:hover
 }
 .container
 {
-    background-color: #15202B;
+    background-color: white;
     display: table; /*transformando o elemento container em tabela*/
     width: 100%; /*tamanho do container*/
     vertical-align: middle;
@@ -152,7 +152,7 @@ a:hover
 .s1
 {
      /*cor de fundo da section*/
-     background-color: #15202B;
+     background-color: white;
      /*elementos dispostos em linha*/
      display: table-cell;
      /* Porcentagem de ocupacao do elemento no container*/
@@ -161,20 +161,20 @@ a:hover
 .s2
 {
    
-    background-color: #15202B
+    background-color: white;
      display: table-cell;
      width: 33%;
 }
 .s3
 {
-    background-color: #15202B;
+    background-color: white;
     display: table-cell;
     width: 33%;
 }
 
 footer
 {
-    background-color: #15202B;
+    background-color: white;
     color: rgb(210, 210, 210);;
     clear: both;
     text-align: center;
