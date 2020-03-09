@@ -14,15 +14,14 @@
 
 }
 
-html {
-    color: #D9DBDD;
-    background-color: #15202B;
+body {
+    color: #fff !important;
+    background-color: #15202B !important;
     font-family: 'inconsolataregular';
 }
 
 .container { /* Sets the perspective and scroll properties for the whole page. */
-
-    max-width: 960px;
+    max-width: 1080px;
     margin: 0 auto;
     font-size: 24px;
     padding: 25px;
@@ -35,9 +34,14 @@ html {
 }
 
 .parallax-text{ /* TO-DO center(in the middle) */
+    left: 50%;
     font-size: 50px;
-    color: #D9DBDD;
+    color: #fff;
     object-position: center;
     z-index: 2;
     position: relative;
+}
+.bg-dark{ /* Changed bootstrap.min.css nav-bar background color */
+
+    background-color: #15202B !important;
 }
