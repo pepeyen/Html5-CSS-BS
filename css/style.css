@@ -17,13 +17,14 @@
 body {
     color: #fff !important;
     background-color: #15202B !important;
+    font-size: 1em !important;
     font-family: 'inconsolataregular';
 }
 
 .container { /* Sets the perspective and scroll properties for the whole page. */
+    min-height: 300px;
     max-width: 1080px;
     margin: 0 auto;
-    font-size: 24px;
     padding: 25px;
 }
 
@@ -33,14 +34,12 @@ body {
     background: transparent;
 }
 
-.parallax-text{ /* TO-DO center(in the middle) */
-    left: 50%;
-    font-size: 50px;
-    color: #fff;
-    object-position: center;
-    z-index: 2;
-    position: relative;
+/* TO-DO center(in the middle) 
+.parallax-text{ 
+
 }
+*/
+
 .bg-dark{ /* Changed bootstrap.min.css nav-bar background color */
 
     background-color: #15202B !important;
