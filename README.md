@@ -1,1 +1,1 @@
-# Html5-CSS-BS
+# Computer Science 1 Basics Website
