@@ -1,0 +1,40 @@
+.page-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 250px;
+}
+.card{
+    display: inline-block !important;
+    width: 20vh;
+    max-height: 50vh;
+    margin: 0 0 0 1vh;
+    border-radius: 0 !important;
+    color: black;
+    text-decoration: none;
+}
+.card:hover{
+    border-radius: 5px !important;
+    border-color: grey;
+    color: black;
+    text-decoration: none;
+}
+.card-image{
+    margin: 0 12.5% 0;
+    max-width:75%;
+    height:auto;
+}
+.card-body{
+    display: table-cell;
+    vertical-align: middle;
+}
+.card-title{
+    text-align: center;
+    display: block !important;
+    font-size: 2vh;
+}
+.card-info{
+    text-align: center;
+    display: block !important;
+    font-size: 1.5vh;
+}

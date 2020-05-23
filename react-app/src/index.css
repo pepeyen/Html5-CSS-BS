@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Exo2-Bold;
+  src: url(fonts/FontExo2Bold.woff);
+}
+.--bold{
+  font-family: Exo2-Bold;
+}
+@font-face {
+  font-family: Exo2-Medium;
+  src: url(fonts/FontExo2Medium.woff);
+}
+.--medium{
+  font-family: Exo2-Medium;
+}
+@font-face {
+  font-family: Exo2-Light;
+  src: url(fonts/FontExo2Light.woff);
+}
+.--light{
+  font-family: Exo2-Light;
+}
+@font-face {
+  font-family: Exo2-Extra-Light;
+  src: url(fonts/FontExo2ExtLight.woff);
+}
+.--extra-light{
+  font-family: Exo2-Extra-Light;
+}
+@font-face {
+  font-family: Exo2-Thin;
+  src: url(fonts/FontExo2Thin.woff);
+}
+.error{
+  display: flex;
+  justify-content: center;
+}
+.message{
+  display: inline-block;
+  text-align: center;
+  color: #d8d8d8;
+  font-size: 25vh;
+}
