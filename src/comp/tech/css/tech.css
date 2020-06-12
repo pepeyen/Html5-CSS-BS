@@ -1,45 +1,172 @@
-/* Info Box Mods */
-.--shadow {
-    box-shadow: 0 0 0.74vh #888888;
+/* Tech Code Block*/
+
+/* PrismJS 1.20.0
+https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+abap+abnf+actionscript+ada+al+antlr4+apacheconf+apl+applescript+aql+arduino+arff+asciidoc+asm6502+aspnet+autohotkey+autoit+bash+basic+batch+bbcode+bison+bnf+brainfuck+brightscript+bro+c+concurnas+csharp+cpp+cil+coffeescript+cmake+clojure+crystal+csp+css-extras+d+dart+dax+diff+django+dns-zone-file+docker+ebnf+eiffel+ejs+elixir+elm+etlua+erb+erlang+excel-formula+fsharp+factor+firestore-security-rules+flow+fortran+ftl+gcode+gdscript+gedcom+gherkin+git+glsl+gml+go+graphql+groovy+haml+handlebars+haskell+haxe+hcl+hlsl+http+hpkp+hsts+ichigojam+icon+iecst+inform7+ini+io+j+java+javadoc+javadoclike+javastacktrace+jolie+jq+jsdoc+js-extras+js-templates+json+jsonp+json5+julia+keyman+kotlin+latex+latte+less+lilypond+liquid+lisp+livescript+llvm+lolcode+lua+makefile+markdown+markup-templating+matlab+mel+mizar+monkey+moonscript+n1ql+n4js+nand2tetris-hdl+nasm+neon+nginx+nim+nix+nsis+objectivec+ocaml+opencl+oz+parigp+parser+pascal+pascaligo+pcaxis+peoplecode+perl+php+phpdoc+php-extras+plsql+powerquery+powershell+processing+prolog+properties+protobuf+pug+puppet+pure+purebasic+python+q+qml+qore+r+racket+jsx+tsx+renpy+reason+regex+rest+rip+roboconf+robotframework+ruby+rust+sas+sass+scss+scala+scheme+shell-session+smalltalk+smarty+solidity+solution-file+soy+sparql+splunk-spl+sqf+sql+stylus+swift+tap+tcl+textile+toml+tt2+turtle+twig+typescript+t4-cs+t4-vb+t4-templating+unrealscript+vala+vbnet+velocity+verilog+vhdl+vim+visual-basic+warpscript+wasm+wiki+xeora+xml-doc+xojo+xquery+yaml+zig */
+/**
+ * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/chriskempson/tomorrow-theme
+ * @author Rose Pritchard
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #ccc;
+	background: none;
+	font-family: Exo2-Extra-Light;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+ 
+    -moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+ 
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+ 
+}
+ 
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+    margin: .5em 0;
+	overflow: auto;
+}
+ 
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+    margin: 5vh 5vh 0;
+    max-height: 50vh;
+	border-radius: 1vh;
+	background: #2d2d2d;
+}
+ 
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+ 
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #999;
+}
+ 
+.token.punctuation {
+	color: #ccc;
+}
+ 
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.deleted {
+	color: #e2777a;
 }
 
-/* Info Box */
-.tech-profile-body{
+.token.function-name {
+	color: #6196cc;
+}
+ 
+.token.boolean,
+.token.number,
+.token.function {
+	color: #f08d49;
+}
+ 
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol {
+	color: #f8c555;
+}
+ 
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin {
+	color: #cc99cd;
+}
+ 
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+	color: #7ec699;
+}
+ 
+.token.operator,
+.token.entity,
+.token.url {
+	color: #67cdcc;
+}
+ 
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+    font-style: italic;
+}
+ 
+.token.entity {
+	cursor: help;
+}
+ 
+.token.inserted {
+	color: green;
+} 
+.tech-code-block__title--bold{
+    margin: 20vh 5vh 0;
+    font-size: 3vh; 
+    font-family: Exo2-Bold;
+}
+
+/* Tech Bar */
+.tech-bar__body{
     max-width: 100%;
     margin-right: 6.8vh;
 }
-.tech-avatar-image{
-    width: 7.5rem;
-    display: block;
-    margin: 2rem auto;
-}
-.tech-profile{
-    width: 11rem;
-    height: 11rem;
-    margin: 2rem 0 0 1rem;
+.tech-bar__profile--shadowed{
+    width: 17vh;
+    height: 17vh;
+    margin: 3vh 0 0 2vh;
     border-radius: 50%;
     display: inline-block;
-    background-color: var(bgcolor);
+    box-shadow: 0 0 0.75vh #888888;
 }
-.tech-profile-info-box{
-    margin: -8rem 0 0 7.5rem;
-    margin-left: 7.5rem;
+.tech-bar__avatar{
+    width: 12vh;
+    position: relative;
+    margin: 3vh 2.5vh;
+}
+.tech-bar__description--shadowed{
+    margin: -12vh 0 0 12vh;
     display: block !important;
     background-color: grey;
-    border-radius: 10px;
-    padding: 2.5rem 2rem 2.5rem 5.25rem;
-    font-size: 1.5rem;
-    color: #dbdbdb;
+    border-radius: 1vh;
+    padding: 3.5vh 3vh 4vh 8.25vh;
     overflow: auto;
+    box-shadow: 0 0 0.75vh #888888;
+}
+.tech-bar__info--extra-light{
+    color: #dbdbdb;
+    font-size: 2vh;
+    font-family: Exo2-Extra-Light;
     text-align: left;
-}
-.tech-profile-info-box *{
     word-wrap: break-word;
-    font-size: 1.5em;
-    float: left;
-
 }
-.code-block-title{
-    margin: 8rem 5.2% 0;
-    font-size: 2rem; 
+.tech-bar__buy-button{
+    margin: 0 50% 0;
+    display: inline;
 }

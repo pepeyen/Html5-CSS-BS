@@ -4,9 +4,10 @@ import React, { Component } from 'react';
 import img from "../../img/css3.png";
 
 //Components
-import MainNavbar from '../../comp/navbar/Navbar.js';
+import NavigationBar from '../../comp/navigation-bar/NavigationBar.js';
 import TechInfoBar from '../../comp/tech/TechInfoBar.js';
 import TechCodeBlock  from '../../comp/tech/TechCodeBlock.js';
+import PostFetcher from '../../comp/post-fetcher/PostFetcher';
 import Footer from '../../comp/footer/Footer.js';
 
 const info = `
@@ -39,8 +40,8 @@ const code = `
 class CssPage extends Component{
     render() {
         return (
-            <React.StrictMode>
-                <MainNavbar />
+            <div className = "css3-page">
+                <NavigationBar />
                 <TechInfoBar 
                     techUrl = {img} 
                     color = '#28A4D8' 
@@ -49,8 +50,13 @@ class CssPage extends Component{
                     code={code}
                     language="css"
                 />
+                <div className = "user-posts">
+                    <PostFetcher postId = '44' />
+                    <PostFetcher postId = '15' />
+                    <PostFetcher postId = '26' />
+                </div>
                 <Footer />
-            </React.StrictMode>
+            </div>
         );
     }
 }

@@ -4,10 +4,11 @@ import React, { Component } from 'react';
 import img from "../../img/html5.png";
 
 //Components
-import MainNavbar from '../../comp/navbar/Navbar.js';
-import TechInfoBar from '../../comp/tech/TechInfoBar.js';
-import TechCodeBlock  from '../../comp/tech/TechCodeBlock.js';
-import Footer from '../../comp/footer/Footer.js';
+import NavigationBar from '../../comp/navigation-bar/NavigationBar';
+import TechInfoBar from '../../comp/tech/TechInfoBar';
+import TechCodeBlock  from '../../comp/tech/TechCodeBlock';
+import PostFetcher from '../../comp/post-fetcher/PostFetcher';
+import Footer from '../../comp/footer/Footer';
 
 const info = `
     É uma nova versão da linguagem HTML, com novos elementos, atributos, e comportamentos e um conjunto maior de tecnologias que permite o desenvolvimento de aplicações e web sites mais diversos e poderosos. Este conjunto é chamado HTML5 & friends e muitas vezes abreviado apenas como HTML5.
@@ -51,8 +52,8 @@ const code = `
 class HtmlPage extends Component{
     render() {
         return (
-            <React.StrictMode>
-                <MainNavbar />
+            <div className = "html5-page">
+                <NavigationBar />
                 <TechInfoBar 
                     color= '#eb907a' 
                     techUrl = {img} 
@@ -62,8 +63,16 @@ class HtmlPage extends Component{
                     code={code}
                     language="html"
                 />
+                <div className = "user-posts">
+                    <PostFetcher postId = '8' />
+                    <PostFetcher postId = '2' />
+                    <PostFetcher postId = '3' />
+                    <PostFetcher postId = '4' />
+                    <PostFetcher postId = '5' />
+                    <PostFetcher postId = '6' />
+                </div>
                 <Footer />
-            </React.StrictMode>
+            </div>
         );
     }
 }

@@ -1,49 +1,52 @@
 /* Page Cards */
-.page-cards{
+.c-card{
     display: flex;
+    margin: 32vh 0;
     justify-content: center;
     flex-direction: row;
-    margin-top: 31.8vh;
 }
-.card{
-    display: inline-block !important;
-    border-radius: 0px;
+.c-card__body{
+    background-color: #FFFFFF;
     width: 20vh;
-    max-height: 50vh;
+    height: 30vh;
+    display: inline-block !important;
+    border: 0.1vh solid #cfcfcf;
+    border-radius: 0;
     margin: 0 0 0 1vh;
+    transition-timing-function: ease-in-out;
     color: black;
     text-decoration: none;
-    transition-timing-function: ease-in-out;
 }
-.card-image{
-    margin: 0 12.5% 0;
-    max-width:75%;
+.c-card__image{
+    margin: 0 2.5vh 0;
+    max-width: 15vh;
     height:auto;
 }
-.card-body{
+.c-card__description{ 
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: center;
 }
-.card-title{
+.c-card__title--medium{
+    font-family: Exo2-Medium;
     text-align: center;
     display: block !important;
     font-size: 2vh;
 }
-.card-info{
+.c-card__text--extra-light{
+    font-family: Exo2-Extra-Light;
     text-align: center;
     display: block !important;
     font-size: 1.5vh;
 }
 
 /* Page Cards Mods*/
-.card:hover{
-    border-radius: 5px;
+.c-card__body:hover{
+    border-radius: 0.5vh;
     border-color: grey;
     color: black;
     text-decoration: none;
-    transition: 100ms;
 }
-.card:hover .card-body{
+.c-card__body:hover .c-card__description{
     opacity: 0.5;
-    transition: 100ms;
+    transition: opacity 100ms;
 }

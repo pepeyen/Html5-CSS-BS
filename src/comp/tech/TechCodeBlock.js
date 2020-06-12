@@ -17,21 +17,20 @@ import "prismjs/components/prism-java";
 import "prismjs/components/prism-jsx";
 import "prismjs/components/prism-php";
 
-
-//CSS
-import "./css/prism.css";
-
 class TechCodeBlock extends React.Component {
   componentDidMount() {
     setTimeout(() => Prism.highlightAll(), 0)
   }
   render() {
     return (
-      <pre className="line-numbers --shadow">
-        <code className={`language-${this.props.language}`}>
-          {this.props.code.trim()}
-        </code>
-      </pre>
+      <div className = "tech-code-block">
+        <div className="tech-code-block__title--bold">Examples</div>
+        <pre className="line-numbers --shadow">
+          <code className={`language-${this.props.language}`}>
+            {this.props.code.trim()}
+          </code>
+        </pre>
+      </div>
     )
   }
 }

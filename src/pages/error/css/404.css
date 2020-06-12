@@ -1,0 +1,11 @@
+.error-page__content{
+    display: flex;
+    justify-content: center;
+}
+.error-page__message--bold{
+    display: inline-block;
+    color: #d8d8d8;
+    text-align: center;
+    font-family: Exo2-Bold;
+    font-size: 25vh;
+  }

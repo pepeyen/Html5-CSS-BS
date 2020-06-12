@@ -4,9 +4,10 @@ import React, { Component } from 'react';
 import img from "../../img/jsf.png";
 
 //Components
-import MainNavbar from '../../comp/navbar/Navbar.js';
+import NavigationBar from '../../comp/navigation-bar/NavigationBar.js';
 import TechInfoBar from '../../comp/tech/TechInfoBar.js';
 import TechCodeBlock  from '../../comp/tech/TechCodeBlock.js';
+import PostFetcher from '../../comp/post-fetcher/PostFetcher';
 import Footer from '../../comp/footer/Footer.js';
 
 
@@ -41,8 +42,8 @@ public class HelloBean implements Serializable {
 class JsfPage extends Component{
     render() {
         return (
-            <React.StrictMode>
-                <MainNavbar />
+            <div className = "jsf-page">
+                <NavigationBar />
                 <TechInfoBar 
                     techUrl = {img} 
                     color = '#FBAC2A' 
@@ -53,8 +54,12 @@ class JsfPage extends Component{
                     language="java"
                     plugins={["line-numbers"]}
                 />
+                <div className = "user-posts">
+                    <PostFetcher postId = '42' />
+                    <PostFetcher postId = '58' />
+                </div>
                 <Footer />
-            </React.StrictMode>
+            </div>
         );
     }
 }

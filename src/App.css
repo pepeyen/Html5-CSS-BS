@@ -1,0 +1,24 @@
+/* Page Font & Font Mods */
+@font-face {
+    font-family: Exo2-Bold;
+    src: url(fonts/FontExo2Bold.woff);
+}
+@font-face {
+    font-family: Exo2-Medium;
+    src: url(fonts/FontExo2Medium.woff);
+}
+@font-face {
+    font-family: Exo2-Light;
+    src: url(fonts/FontExo2Light.woff);
+}
+@font-face {
+    font-family: Exo2-Extra-Light;
+    src: url(fonts/FontExo2ExtLight.woff);
+}
+@font-face {
+    font-family: Exo2-Thin;
+    src: url(fonts/FontExo2Thin.woff);
+}
+.user-posts{
+    margin-top: 25vh;
+}

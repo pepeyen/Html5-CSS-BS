@@ -4,9 +4,10 @@ import React, { Component } from 'react';
 import img from "../../img/php.png";
 
 //Components
-import MainNavbar from '../../comp/navbar/Navbar.js';
+import NavigationBar from '../../comp/navigation-bar/NavigationBar.js';
 import TechInfoBar from '../../comp/tech/TechInfoBar.js';
 import TechCodeBlock  from '../../comp/tech/TechCodeBlock.js';
+import PostFetcher from '../../comp/post-fetcher/PostFetcher';
 import Footer from '../../comp/footer/Footer.js';
 
 
@@ -49,8 +50,8 @@ const code = `
 class PhpPage extends Component{
     render() {
         return (
-            <React.StrictMode>
-                <MainNavbar />
+            <div className = "php-page">
+                <NavigationBar />
                 <TechInfoBar 
                     techUrl = {img} 
                     color = '#7377AD' 
@@ -60,8 +61,16 @@ class PhpPage extends Component{
                     code={code}
                     language="php"
                 />
+                <div className = "user-posts">
+                    <PostFetcher postId = '99' />
+                    <PostFetcher postId = '23' />
+                    <PostFetcher postId = '39' />
+                    <PostFetcher postId = '33' />
+                    <PostFetcher postId = '67' />
+                    <PostFetcher postId = '78' />
+                </div>
                 <Footer />
-            </React.StrictMode>
+            </div>
         );
     }
 }
