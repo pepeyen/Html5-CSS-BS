@@ -25,5 +25,10 @@
     overflow-y: hidden;
 }
 .user-posts{
-    margin-top: 25vh;
+    margin-top: 15vh;
+}
+@media only screen and (max-width: 800px){
+    .user-posts{
+        margin-top: 15rem;
+    }
 }

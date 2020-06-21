@@ -8,6 +8,8 @@
     margin-bottom: 2vh;
 }
 .post__avatar{
+    width: 5vh;
+    height: 5vh;
     border-radius: 50%;
     display: inline-block;
     background-color: #e6e6e6;
@@ -16,7 +18,7 @@
     margin: 0 0 0 1vh;
     display: inline-block;
     font-family: Exo2-Bold;
-    font-size: 0.9em;
+    font-size: 1.8vh;
 }
 .post__comment{
     display: inline-block;
@@ -27,5 +29,33 @@
 .post__text--light{
     color: #40514e;
     font-family: Exo2-Light;
-    font-size: 0.8em;
+    font-size: 1.6vh;
+}
+@media only screen and (max-width: 800px){
+    .post{
+        margin: 2rem 0;
+    }
+    .post__body{
+        padding-left: 0;
+    }
+    .post__owner{
+        margin-bottom: 1rem;
+    }
+    .post__nickname--bold{
+        margin: 0 0 0 .5rem;
+    }
+    .post__comment{
+        border-radius: 0;
+        padding: 1rem;
+    }
+    .post__nickname--bold{
+        font-size: 0.9rem;
+    }
+    .post__text--light{
+        font-size: 0.8rem;
+    }
+    .post__avatar{
+        width: 3rem;
+        height: 3rem;
+    }
 }

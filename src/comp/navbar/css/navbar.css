@@ -4,36 +4,52 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    padding: 1vh;   
+    padding: 1vh; 
 }
-.navbar__brand--extra-light{
+.navbar__brand--medium{
     font-size: 2.5vh;
     color: #000000;
     opacity: 0.9;
-    font-family: Exo2-Extra-Light;
+    font-family: Exo2-Medium;
 }
-.navbar__brand--extra-light:hover{
+.navbar__brand--medium:hover{
     opacity: 0.5; 
 }
-.navbar__link--extra-light{
-    font-size: 2vh;
-    color: #000000;
-    opacity: 0.5;
-    font-family: Exo2-Extra-Light;
-}
-.navbar__link--extra-light:hover{
-    opacity: 0.7;
+.navbar__cart-button{
+    visibility: hidden;
+    display: none;
 }
 /* Navbar Mobile - Using rem units because mobile resposiviness are messed up [ Google, Mozzila, Apple +pls fix >:^( ]*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .navbar{
-        padding: 1rem;
+        width: 100%;
+        background-color: #F5F5F5;
+        position: fixed;
+        bottom: 0;
+        z-index: 1000;
+        padding: 0;
     }
-    .navbar__brand--extra-light{
+    .navbar__section{
+        height: 5rem;
+        width: 100%;
+        text-align: center;
+        border-top: .1rem solid #cfcfcf;
+    }
+    .navbar__cart-button{
+        display: inline;
+        visibility: visible;
+    }
+    .navbar__icon{
+        display: block;
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 3rem;
+    }
+    .navbar__brand--medium{
+        margin-top: 2rem;
+        display: block;
         font-size: 1.4rem;
     }
-    .navbar__link--extra-light{
-        font-size: 1.2rem;
-    }
+
 }

@@ -51,7 +51,7 @@
     transition: opacity 100ms;
 }
 /* Cards Mobile - Using rem units because mobile resposiviness are messed up [ Google, Mozzila, Apple +pls fix >:^( ]*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .c-card{
         display: block;
         margin: 5rem 0 0;

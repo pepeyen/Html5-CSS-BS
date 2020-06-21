@@ -2,13 +2,20 @@ import React, { Component } from 'react';
 
 //CSS
 import './css/navbar.css';
+import img_cart from '../../img/cart.svg';
 
 class Navbar extends Component {
     render() {
         return (
             <header className="navbar">
-                <a className="navbar__brand--extra-light" href="/">CS Tech</a>
-                <a className="navbar__link--extra-light" href="https://github.com/pepeyen" target="_blank" rel="noopener noreferrer">Github</a>
+                <div className = "navbar__section">
+                    <a className = "navbar__cart-button" href = "/pages/cart" >
+                        <img className = "navbar__icon" src = {img_cart} alt = ""/>
+                    </a>
+                </div>
+                <div className = "navbar__section">
+                    <a className="navbar__brand--medium" href="/">CS Tech</a>
+                </div>
             </header>         
         );
     }
