@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import img from "../../img/html5.png";
 
 //Components
-import NavigationBar from '../../comp/navigation-bar/NavigationBar';
+import Navbar from '../../comp/navbar/Navbar';
 import TechInfoBar from '../../comp/tech/TechInfoBar';
 import TechCodeBlock  from '../../comp/tech/TechCodeBlock';
 import PostFetcher from '../../comp/post-fetcher/PostFetcher';
@@ -53,7 +53,7 @@ class HtmlPage extends Component{
     render() {
         return (
             <div className = "html5-page">
-                <NavigationBar />
+                <Navbar />
                 <TechInfoBar 
                     color= '#eb907a' 
                     techUrl = {img} 

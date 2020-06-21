@@ -9,7 +9,6 @@ import {
 
 //CSS
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Pages
 import MainPage from "./pages/index";

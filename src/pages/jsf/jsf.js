@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import img from "../../img/jsf.png";
 
 //Components
-import NavigationBar from '../../comp/navigation-bar/NavigationBar.js';
+import Navbar from '../../comp/navbar/Navbar.js';
 import TechInfoBar from '../../comp/tech/TechInfoBar.js';
 import TechCodeBlock  from '../../comp/tech/TechCodeBlock.js';
 import PostFetcher from '../../comp/post-fetcher/PostFetcher';
@@ -43,7 +43,7 @@ class JsfPage extends Component{
     render() {
         return (
             <div className = "jsf-page">
-                <NavigationBar />
+                <Navbar />
                 <TechInfoBar 
                     techUrl = {img} 
                     color = '#FBAC2A' 

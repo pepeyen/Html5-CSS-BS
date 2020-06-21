@@ -4,14 +4,14 @@ import React, { Component } from 'react';
 import './css/404.css';
 
 //Componets
-import NavigationBar from '../../comp/navigation-bar/NavigationBar.js';
+import Navbar from '../../comp/navbar/Navbar.js';
 import Footer from '../../comp/footer/Footer.js';
 
 class NotFoundPage extends Component{
     render() {
         return (
             <div className = "error-page">
-                <NavigationBar />
+                <Navbar />
                 <div className="error-page__content">
                     <text className = "error-page__message--bold">404</text>
                 </div>

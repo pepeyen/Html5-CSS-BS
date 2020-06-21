@@ -1,0 +1,39 @@
+/* Navbar - Using VH units because resposiviness duhh*/
+.navbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh;   
+}
+.navbar__brand--extra-light{
+    font-size: 2.5vh;
+    color: #000000;
+    opacity: 0.9;
+    font-family: Exo2-Extra-Light;
+}
+.navbar__brand--extra-light:hover{
+    opacity: 0.5; 
+}
+.navbar__link--extra-light{
+    font-size: 2vh;
+    color: #000000;
+    opacity: 0.5;
+    font-family: Exo2-Extra-Light;
+}
+.navbar__link--extra-light:hover{
+    opacity: 0.7;
+}
+/* Navbar Mobile - Using rem units because mobile resposiviness are messed up [ Google, Mozzila, Apple +pls fix >:^( ]*/
+@media only screen and (max-width: 768px) {
+    .navbar{
+        padding: 1rem;
+    }
+    .navbar__brand--extra-light{
+        font-size: 1.4rem;
+    }
+    .navbar__link--extra-light{
+        font-size: 1.2rem;
+    }
+}

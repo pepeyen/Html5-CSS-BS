@@ -5,8 +5,8 @@ import * as serviceWorker from './serviceWorker';
 //Multi-Page plugin
 import { BrowserRouter } from "react-router-dom"; 
 
-
-
+//CSS
+import './index.css';
 
 import App from './App';
 

@@ -1,7 +1,7 @@
-/* Page Cards */
+/* Cards - Using VH units because resposiviness duhh*/
 .c-card{
     display: flex;
-    margin: 32vh 0;
+    margin: 32vh 0 0;
     justify-content: center;
     flex-direction: row;
 }
@@ -9,7 +9,7 @@
     background-color: #FFFFFF;
     width: 20vh;
     height: 30vh;
-    display: inline-block !important;
+    display: inline-block;
     border: 0.1vh solid #cfcfcf;
     border-radius: 0;
     margin: 0 0 0 1vh;
@@ -19,7 +19,7 @@
 }
 .c-card__image{
     margin: 0 2.5vh 0;
-    max-width: 15vh;
+    width: 15vh;
     height:auto;
 }
 .c-card__description{ 
@@ -29,17 +29,17 @@
 .c-card__title--medium{
     font-family: Exo2-Medium;
     text-align: center;
-    display: block !important;
+    display: block;
     font-size: 2vh;
 }
 .c-card__text--extra-light{
     font-family: Exo2-Extra-Light;
     text-align: center;
-    display: block !important;
+    display: block;
+    margin: 3vh 0;
     font-size: 1.5vh;
 }
-
-/* Page Cards Mods*/
+/* Cards Mods*/
 .c-card__body:hover{
     border-radius: 0.5vh;
     border-color: grey;
@@ -49,4 +49,40 @@
 .c-card__body:hover .c-card__description{
     opacity: 0.5;
     transition: opacity 100ms;
+}
+/* Cards Mobile - Using rem units because mobile resposiviness are messed up [ Google, Mozzila, Apple +pls fix >:^( ]*/
+@media only screen and (max-width: 768px) {
+    .c-card{
+        display: block;
+        margin: 5rem 0 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .c-card__body{
+        width: 100%;
+        height: 15rem;
+        border-top: 0.05rem solid #cfcfcf;
+        border-bottom: 0.05rem solid #cfcfcf;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+        margin: 2.5rem 0;
+    }
+    .c-card__image{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 7.4rem;
+    }
+    .c-card__description{
+        display: block;
+    }
+    .c-card__title--medium{
+        font-size: 1.5rem;
+    }
+    .c-card__text--extra-light{
+        margin: 1.5rem 0;
+        font-size: 1rem;
+    }
 }

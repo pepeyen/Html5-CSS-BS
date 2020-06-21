@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 
-//CSS
-import './index.css';
-
 //Components
-import NavigationBar from '../comp/navigation-bar/NavigationBar.js';
+import Navbar from '../comp/navbar/Navbar.js';
 import Cards from '../comp/cards/Cards.js';
 import Footer from '../comp/footer/Footer.js';
 
@@ -12,8 +9,10 @@ class MainPage extends Component{
     render() {
         return (
             <div className = "main-page">
-                <NavigationBar cartState = 'hidden' />
-                <Cards />
+                <Navbar cartState = 'hidden' />
+                <main>
+                    <Cards />
+                </main>
                 <Footer />
             </div>
         );

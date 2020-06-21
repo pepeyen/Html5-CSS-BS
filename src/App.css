@@ -19,6 +19,11 @@
     font-family: Exo2-Thin;
     src: url(fonts/FontExo2Thin.woff);
 }
+.main-page {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
 .user-posts{
     margin-top: 25vh;
 }

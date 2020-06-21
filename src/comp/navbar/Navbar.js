@@ -1,47 +1,17 @@
 import React, { Component } from 'react';
-import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-} from 'reactstrap';
 
-class MainNavbar extends Component {
-    constructor(props) {
-        super(props);
+//CSS
+import './css/navbar.css';
 
-        this.toggle = this.toggle.bind(this);
-        this.state = {
-            isOpen: false
-        };
-    }
-    toggle() {
-        this.setState({
-            isOpen: !this.state.isOpen
-        });
-    }
+class Navbar extends Component {
     render() {
         return (
-            <React.Fragment>
-                <div className="page">
-                    <Navbar color="inverse" light expand="md">
-                        <NavbarBrand className="brand --medium" href="/">CS Tech</NavbarBrand>
-                        <NavbarToggler onClick={this.toggle} />
-                        <Collapse isOpen={this.state.isOpen} navbar>
-                            <Nav className="ml-auto --light" navbar>
-                                <NavItem>
-                                    <NavLink href="https://github.com/pepeyen" target="_blank">Github</NavLink>
-                                </NavItem>
-                            </Nav>
-                        </Collapse>
-                    </Navbar>
-                </div> 
-            </React.Fragment>         
+            <header className="navbar">
+                <a className="navbar__brand--extra-light" href="/">CS Tech</a>
+                <a className="navbar__link--extra-light" href="https://github.com/pepeyen" target="_blank" rel="noopener noreferrer">Github</a>
+            </header>         
         );
     }
 }
 
-export default MainNavbar;
+export default Navbar;
