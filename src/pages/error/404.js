@@ -5,17 +5,18 @@ import './css/404.css';
 
 //Componets
 import Navbar from '../../comp/navbar/Navbar.js';
-import Footer from '../../comp/footer/Footer.js';
 
 class NotFoundPage extends Component{
     render() {
         return (
             <div className = "error-page">
-                <Navbar />
+                <Navbar isCartVisible = {false} />
                 <div className="error-page__content">
-                    <text className = "error-page__message--bold">404</text>
+                    <p className = "error-page__message--bold">404</p>     
                 </div>
-                <Footer />
+                <div className="error-page__content">
+                    <p className = "error-page__info--light">Page not found</p>
+                </div>
             </div>
         );
     }

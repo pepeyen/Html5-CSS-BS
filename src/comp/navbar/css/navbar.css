@@ -1,55 +1,67 @@
 /* Navbar - Using VH units because resposiviness duhh*/
 .navbar{
-    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
     padding: 1vh; 
+    height: 5vh;
 }
 .navbar__brand--medium{
     font-size: 2.5vh;
-    color: #000000;
-    opacity: 0.9;
+    color: #1a2639;
     font-family: Exo2-Medium;
 }
-.navbar__brand--medium:hover{
-    opacity: 0.5; 
+.navbar__icon:hover{
+    opacity: 0.5;
 }
-.navbar__cart-button{
+.navbar__brand--medium:hover{
+    color: #3e4a61;
+}
+.cart-button--hidden{
     visibility: hidden;
     display: none;
 }
 /* Navbar Mobile - Using rem units because mobile resposiviness are messed up [ Google, Mozzila, Apple +pls fix >:^( ]*/
 @media only screen and (max-width: 800px) {
+    .-html{
+        background-color: #eb907a;
+    }
+    .-css{
+        background-color: #28A4D8;
+    }
+    .-php{
+        background-color: #7377AD;
+    }
+    .-java{
+        background-color: #FBAC2A;
+    }
+    .-jsx{
+        background-color: #8DD1FB;
+    }
     .navbar{
-        width: 100%;
-        background-color: #F5F5F5;
-        position: fixed;
-        bottom: 0;
-        z-index: 1000;
-        padding: 0;
+        height: 15rem;
+        padding: 1.5rem; 
+        display: flexbox;
+        justify-content: space-around;
+        flex-direction: column;
     }
     .navbar__section{
+        border: .1rem solid #3e4a61;
+        border-radius: 5px;
         height: 5rem;
         width: 100%;
         text-align: center;
-        border-top: .1rem solid #cfcfcf;
-    }
-    .navbar__cart-button{
-        display: inline;
-        visibility: visible;
     }
     .navbar__icon{
         display: block;
         margin-top: 1rem;
         margin-left: auto;
         margin-right: auto;
-        width: 3rem;
     }
     .navbar__brand--medium{
         margin-top: 2rem;
         display: block;
         font-size: 1.4rem;
     }
-
 }

@@ -43,7 +43,7 @@ class JsfPage extends Component{
     render() {
         return (
             <div className = "jsf-page">
-                <Navbar />
+                <Navbar isCartVisible = {true} language="java" />
                 <TechInfoBar 
                     techUrl = {img} 
                     color = '#FBAC2A' 

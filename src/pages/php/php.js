@@ -51,7 +51,7 @@ class PhpPage extends Component{
     render() {
         return (
             <div className = "php-page">
-                <Navbar />
+                <Navbar isCartVisible = {true} language="php" />
                 <TechInfoBar 
                     techUrl = {img} 
                     color = '#7377AD' 

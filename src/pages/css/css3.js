@@ -41,7 +41,7 @@ class CssPage extends Component{
     render() {
         return (
             <div className = "css3-page">
-                <Navbar />
+                <Navbar isCartVisible = {true} language="css" />
                 <TechInfoBar 
                     techUrl = {img} 
                     color = '#28A4D8' 

@@ -53,15 +53,15 @@ class HtmlPage extends Component{
     render() {
         return (
             <div className = "html5-page">
-                <Navbar />
+                <Navbar isCartVisible = {true} language = 'html' />
                 <TechInfoBar 
                     color= '#eb907a' 
                     techUrl = {img} 
                     info = {info}
                 />
                 <TechCodeBlock
-                    code={code}
-                    language="html"
+                    code = {code}
+                    language = 'html'
                 />
                 <div className = "user-posts">
                     <PostFetcher postId = '8' />

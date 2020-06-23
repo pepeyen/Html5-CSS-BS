@@ -2,19 +2,22 @@
 .footer{
     position: absolute;
     width: 100%;
-    background-color: #f5f5f5;
+    background-color: #3e4a61;
     padding: 10vh;
     margin-top: 20vh;
     box-sizing: border-box;
 }
 .footer__content--light{
     text-align: center;
-    color: grey;
-    font-size: 1.5vh;
+    color: #6e7e9b;
+    font-size: 1.8vh;
     font-family: Exo2-Light;
 }
 .footer__link{
-    color: #2D56B7;
+    color: #c3c5c9;
+}
+.footer__link:hover{
+    color: #9ab1db;
 }
 /* Footer Mobile - Using rem units because mobile resposiviness are messed up [ Google, Mozzila, Apple +pls fix >:^( ]*/
 @media only screen and (max-width: 800px) {
@@ -23,6 +26,6 @@
         padding: 5rem;
     }
     .footer__content--light{
-        font-size: .8rem;
+        font-size: 1.2rem;
     }
 }

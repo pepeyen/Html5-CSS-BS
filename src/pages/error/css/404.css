@@ -1,11 +1,28 @@
 .error-page__content{
+    margin: 5vh 0 0 0;
     display: flex;
     justify-content: center;
 }
 .error-page__message--bold{
-    display: inline-block;
     color: #d8d8d8;
     text-align: center;
     font-family: Exo2-Bold;
     font-size: 25vh;
-  }
+}
+.error-page__info--light{
+    color: #d8d8d8;
+    text-align: center;
+    font-family: Exo2-Light;
+    font-size: 10vh;
+}
+@media only screen and (max-width: 800px) {
+    .error-page__content{
+        margin: 2.7rem 0 0 0;
+    }
+    .error-page__message--bold{
+        font-size: 12.7rem;
+    }
+    .error-page__info--light{
+        font-size: 5.05rem;
+    }
+}

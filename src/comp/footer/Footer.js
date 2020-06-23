@@ -9,7 +9,7 @@ class Footer extends Component {
             <footer className = "footer">
                 <p className = "footer__content--light"> 
                     Made by <a className="footer__link" href = "https://github.com/pepeyen" target = "_blank" rel="noopener noreferrer">Erick</a> with love :3
-                </p>            
+                </p>      
             </footer>        
         );
     }

@@ -4,56 +4,44 @@ import { Link } from "react-router-dom";
 //CSS
 import './css/cards.css';
 
-//Card Images
-import img_html from "../../img/html5.png";
-import img_css from "../../img/css3.png";
-import img_php from "../../img/php.png";
-import img_jsf from "../../img/jsf.png";
-import img_react from "../../img/reactjs.png";
-
 class Cards extends Component {
     render() {
         return (
             <React.Fragment>
                 <div className = "c-card">
-                    <Link className = "c-card__body" to="/pages/html5" target="" rel="noopener noreferrer">
-                        <img className = "c-card__image" src = {img_html} alt = "Icon handmade of html" />
+                    <Link className = "c-card__body --html" to="/pages/html5" target="" rel="noopener noreferrer">
+                    <p className = "c-card__title--medium">HTML</p>
                         <div className = "c-card__description">
-                            <p className = "c-card__title--medium">Html</p>
-                            <p className = "c-card__text--extra-light">Clique aqui para saber mais sobre a tecnlogia HTML5</p>  
+                            <p className = "c-card__text--extra-light">Clique aqui para saber mais sobre a tecnlogia</p>  
                         </div>
                     </Link>
 
-                    <Link className = "c-card__body" to="/pages/css3" target="" rel="noopener noreferrer">
-                        <img className = "c-card__image" src = {img_css} alt = "Icon handmade of css" />
+                    <Link className = "c-card__body --css" to="/pages/css3" target="" rel="noopener noreferrer">
+                    <p className = "c-card__title--medium">CSS</p>
                         <div className = "c-card__description">
-                            <p className = "c-card__title--medium">CSS</p>
-                            <p className = "c-card__text--extra-light">Clique aqui para saber mais sobre a tecnlogia CSS</p>      
-                        </div>         
+                            <p className = "c-card__text--extra-light">Clique aqui para saber mais sobre a tecnlogia</p>      
+                        </div>      
                     </Link>
 
-                    <Link  className = "c-card__body" to="/pages/php" target="" rel="noopener noreferrer">
-                        <img className = "c-card__image" src = {img_php} alt = "Icon handmade of php" />
+                    <Link  className = "c-card__body --php" to="/pages/php" target="" rel="noopener noreferrer">
+                    <p className = "c-card__title--medium">PHP</p>  
                         <div className = "c-card__description">
-                            <p className = "c-card__title--medium">PHP</p>  
-                            <p className = "c-card__text--extra-light">Clique aqui para saber mais sobre a tecnlogia PHP</p> 
-                        </div>                     
+                            <p className = "c-card__text--extra-light">Clique aqui para saber mais sobre a tecnlogia</p> 
+                        </div>                  
                     </Link>
 
-                    <Link  className = "c-card__body" to="/pages/jsf" target="" rel="noopener noreferrer">
-                        <img className = "c-card__image" src = {img_jsf} alt = "Icon handmade of jsf" />
+                    <Link  className = "c-card__body --jsf" to="/pages/jsf" target="" rel="noopener noreferrer"> 
+                    <p className = "c-card__title--medium">JSF</p> 
                         <div className = "c-card__description">
-                            <p className = "c-card__title--medium">JSF</p>  
-                            <p className = "c-card__text--extra-light">Clique aqui para saber mais sobre a tecnlogia JSF</p>
-                        </div>                      
+                            <p className = "c-card__text--extra-light">Clique aqui para saber mais sobre a tecnlogia</p>
+                        </div>                 
                     </Link>
 
-                    <Link className = "c-card__body" to="/pages/reactjs" target="" rel="noopener noreferrer">
-                        <img className = "c-card__image" src = {img_react} alt = "Icon handmade of react" />
+                    <Link className = "c-card__body --reactjs" to="/pages/reactjs" target="" rel="noopener noreferrer">
+                    <p className = "c-card__title--medium">REACT.JS</p>
                         <div className = "c-card__description">
-                            <p className = "c-card__title--medium">React</p> 
-                            <p className = "c-card__text--extra-light">Clique aqui para saber mais sobre a tecnlogia React JS</p> 
-                        </div>                       
+                            <p className = "c-card__text--extra-light">Clique aqui para saber mais sobre a tecnlogia</p> 
+                        </div>                
                     </Link>
                 </div>
             </React.Fragment>         

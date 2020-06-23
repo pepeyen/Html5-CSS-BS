@@ -39,7 +39,7 @@ class ReactPage extends React.Component {
     render() {
         return (
             <div className = "reactjs-page">
-                <Navbar />
+                <Navbar isCartVisible = {true} language="jsx" />
                 <TechInfoBar 
                     techUrl = {img} 
                     color = '#8DD1FB' 

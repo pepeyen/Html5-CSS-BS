@@ -43,7 +43,7 @@ pre[class*="language-"] {
     margin: 5vh 5vh 0;
     max-height: 50vh;
 	border-radius: 1vh;
-	background: #2d2d2d;
+	background: #1a2639;
 }
  
 /* Inline code */
@@ -127,7 +127,8 @@ pre[class*="language-"] {
 	color: green;
 } 
 .tech-code-block__title--bold{
-    margin: 20vh 5vh 0;
+	margin: 20vh 5vh 0;
+	color: #2d2d2d;
     font-size: 3vh; 
     font-family: Exo2-Bold;
 }
@@ -160,16 +161,16 @@ pre[class*="language-"] {
 	display: block;
 }
 .tech-bar__description--shadowed{
-    margin: -12vh 0 0 12vh;
+    margin: -12vh 0 0 10vh;
     display: block;
-    background-color: grey;
+    background-color: #1a2639;
     border-radius: 1vh;
     padding: 3.5vh 3vh 4vh 8.25vh;
     overflow: auto;
     box-shadow: 0 0 0.75vh #888888;
 }
 .tech-bar__info--extra-light{
-    color: #dbdbdb;
+    color: #f5f5f5;
     font-size: 2vh;
     font-family: Exo2-Extra-Light;
     text-align: left;
@@ -204,7 +205,6 @@ pre[class*="language-"] {
 		padding: 4rem;
 		overflow: none;
 		box-shadow: none;
-		background-color: grey;
 	}
 	.tech-bar__info--extra-light{
 		font-size: 1.25rem;
@@ -218,7 +218,6 @@ pre[class*="language-"] {
 		margin: 0;
 		max-height: 25rem;
 		border-radius: 0;
-		background: #2d2d2d;
 	}
 	pre[class*="language-"] {
 		padding: 0;
