@@ -1,31 +1,32 @@
 {
   "files": {
     "main.css": "/cs-tech/static/css/main.99dc32d7.chunk.css",
-    "main.js": "/cs-tech/static/js/main.bc82b858.chunk.js",
-    "main.js.map": "/cs-tech/static/js/main.bc82b858.chunk.js.map",
-    "runtime-main.js": "/cs-tech/static/js/runtime-main.b3e2e177.js",
-    "runtime-main.js.map": "/cs-tech/static/js/runtime-main.b3e2e177.js.map",
+    "main.js": "/cs-tech/static/js/main.c8ca63e0.chunk.js",
+    "main.js.map": "/cs-tech/static/js/main.c8ca63e0.chunk.js.map",
+    "runtime-main.js": "/cs-tech/static/js/runtime-main.4535c2ef.js",
+    "runtime-main.js.map": "/cs-tech/static/js/runtime-main.4535c2ef.js.map",
     "static/css/2.f6037f30.chunk.css": "/cs-tech/static/css/2.f6037f30.chunk.css",
-    "static/js/2.15d71737.chunk.js": "/cs-tech/static/js/2.15d71737.chunk.js",
-    "static/js/2.15d71737.chunk.js.map": "/cs-tech/static/js/2.15d71737.chunk.js.map",
+    "static/js/2.7ba41b90.chunk.js": "/cs-tech/static/js/2.7ba41b90.chunk.js",
+    "static/js/2.7ba41b90.chunk.js.map": "/cs-tech/static/js/2.7ba41b90.chunk.js.map",
     "index.html": "/cs-tech/index.html",
-    "precache-manifest.92381d29bd47f28fc6774b2695bc6480.js": "/cs-tech/precache-manifest.92381d29bd47f28fc6774b2695bc6480.js",
+    "precache-manifest.e42daefbd94b0ed94cba0346c783ee06.js": "/cs-tech/precache-manifest.e42daefbd94b0ed94cba0346c783ee06.js",
     "service-worker.js": "/cs-tech/service-worker.js",
     "static/css/2.f6037f30.chunk.css.map": "/cs-tech/static/css/2.f6037f30.chunk.css.map",
     "static/css/main.99dc32d7.chunk.css.map": "/cs-tech/static/css/main.99dc32d7.chunk.css.map",
-    "static/js/2.15d71737.chunk.js.LICENSE.txt": "/cs-tech/static/js/2.15d71737.chunk.js.LICENSE.txt",
+    "static/js/2.7ba41b90.chunk.js.LICENSE.txt": "/cs-tech/static/js/2.7ba41b90.chunk.js.LICENSE.txt",
     "static/media/App.css": "/cs-tech/static/media/FontExo2Thin.129082a0.woff",
     "static/media/html5.png": "/cs-tech/static/media/html5.5480beaa.png",
     "static/media/cards.css": "/cs-tech/static/media/reactjs-faded.716b77d1.png",
     "static/media/jsf.png": "/cs-tech/static/media/jsf.7fdf4443.png",
     "static/media/php.png": "/cs-tech/static/media/php.b4a23ad1.png",
-    "static/media/reactjs.png": "/cs-tech/static/media/reactjs.394b399c.png"
+    "static/media/reactjs.png": "/cs-tech/static/media/reactjs.394b399c.png",
+    "static/media/user.svg": "/cs-tech/static/media/user.5e946c20.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b3e2e177.js",
+    "static/js/runtime-main.4535c2ef.js",
     "static/css/2.f6037f30.chunk.css",
-    "static/js/2.15d71737.chunk.js",
+    "static/js/2.7ba41b90.chunk.js",
     "static/css/main.99dc32d7.chunk.css",
-    "static/js/main.bc82b858.chunk.js"
+    "static/js/main.c8ca63e0.chunk.js"
   ]
 }
