@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "75f27e7b6c29b92c635f813521efcc20",
+    "revision": "0d9391bdc626bf2c32818e10ffe5be1f",
     "url": "/cs-tech/index.html"
   },
   {
-    "revision": "9c6bd53b94b572020d4e",
+    "revision": "686f09bb3e87ddfb928a",
     "url": "/cs-tech/static/css/2.f6037f30.chunk.css"
   },
   {
-    "revision": "d2e1687db7930740f099",
+    "revision": "9c19a10ef183ed6adfff",
     "url": "/cs-tech/static/css/main.5a05fd8a.chunk.css"
   },
   {
-    "revision": "9c6bd53b94b572020d4e",
-    "url": "/cs-tech/static/js/2.f2ac4589.chunk.js"
+    "revision": "686f09bb3e87ddfb928a",
+    "url": "/cs-tech/static/js/2.409313fc.chunk.js"
   },
   {
     "revision": "6331f70a3ea8aafd2e3fca1343e5ed47",
-    "url": "/cs-tech/static/js/2.f2ac4589.chunk.js.LICENSE.txt"
+    "url": "/cs-tech/static/js/2.409313fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d2e1687db7930740f099",
-    "url": "/cs-tech/static/js/main.5f680d7d.chunk.js"
+    "revision": "9c19a10ef183ed6adfff",
+    "url": "/cs-tech/static/js/main.6c023f48.chunk.js"
   },
   {
     "revision": "23958e07ae808a3c07e3",
