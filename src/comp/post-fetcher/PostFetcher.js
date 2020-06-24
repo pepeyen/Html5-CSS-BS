@@ -5,7 +5,7 @@ import Axios from 'axios'
 import './css/post-fetcher.css';
 
 //Profile avatar
-import img_user from "../../img/user.png";
+import img_user from "../../img/user.svg";
 
 class PostFetcher extends React.Component {
     constructor(props) {

@@ -227,6 +227,6 @@ pre[class*="language-"] {
 	.tech-code-block__title--bold{
 		margin: 10rem 0 1.5rem 0;
 		font-size: 2rem; 
-		font-family: Exo2-Bold;
+		text-align: center;
 	}
 }

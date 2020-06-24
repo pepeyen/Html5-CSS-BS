@@ -1,13 +1,13 @@
-.cart__input{
+.cart__input {
     display: block;
     margin-left: auto;
 }
-.cart__label--bold{
+.cart__label--bold {
     display: block;
     text-align: center;
     font-family: Exo2-Bold;
 }
-.cart__input--light{
+.cart__input--light {
     display: block;
     margin: 0 auto 1rem auto;
     text-align: center;
@@ -16,15 +16,14 @@
     padding: 1vh;
     font-family: Exo2-Light;
 }
-.cart__button--extra-light{
+.cart__button--extra-light {
     display: block;
     margin: 0 auto 1rem auto;
-
     border: 2px solid #40514e;
     border-radius: 5px;
     font-family: Exo2-Extra-Light;
 }
-.cart__listing{
+.cart__listing {
     margin: 20vh 1vh 0;
     text-align: center;
 }

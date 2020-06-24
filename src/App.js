@@ -25,14 +25,14 @@ class App extends Component {
         return (
             <Switch>
                 <Route exact path = "/" component = {MainPage} />
-                <Route path = "/pages/html5"component = {HtmlPage} />
-                <Route path = "/pages/css3" component = {CssPage} />
-                <Route path = "/pages/php" component = {PhpPage} />
-                <Route path = "/pages/jsf" component = {JsfPage} />
-                <Route path = "/pages/reactjs" component = {ReactPage} />
-                <Route path = "/pages/cart" component = {CartPage} />
-                <Route path = "/404" component = {NotFoundPage} />
-                <Redirect to = "/404" />
+                <Route exact path = "/course/html5" component = {HtmlPage} />
+                <Route exact path = "/course/css3" component = {CssPage} />
+                <Route exact path = "/course/php" component = {PhpPage} />
+                <Route exact path = "/course/jsf" component = {JsfPage} />
+                <Route exact path = "/course/reactjs" component = {ReactPage} />
+                <Route exact path = "/shop/cart" component = {CartPage} />
+                <Route path = "/error/404" component = {NotFoundPage} />
+                <Redirect to = "/error/404" />
             </Switch>
         );
     }

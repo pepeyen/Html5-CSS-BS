@@ -9,6 +9,7 @@ class MainPage extends Component{
         return (
             <div className = "main-page">
                 <main>
+                    <p className = ""></p>
                     <Cards />
                 </main>
                 <Footer />

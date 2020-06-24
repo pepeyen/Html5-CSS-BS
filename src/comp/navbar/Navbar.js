@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from "react-router-dom"; 
 //CSS
 import './css/navbar.css';
 import img_cart from '../../img/cart.svg';
@@ -16,12 +16,12 @@ class Navbar extends Component {
         return (
             <header className={`navbar -${this.props.language}`} >
                  <div className = "navbar__section">
-                    <a className="navbar__brand--medium" href="/">CS Tech</a>
+                    <Link className="navbar__brand--medium" to = "/" >CS Tech</Link>
                 </div>               
                 <div className = {`navbar__section cart-button--${cartState}`}>
-                    <a className = "navbar__cart" href = "/pages/cart" >
+                    <Link className = "navbar__cart" to = "/shop/cart" >
                         <img className = "navbar__icon" src = {img_cart} alt = ""/>
-                    </a>
+                    </Link>
                 </div>
             </header>         
         );
