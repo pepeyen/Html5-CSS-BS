@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/cs-tech/static/css/main.178e451e.chunk.css",
-    "main.js": "/cs-tech/static/js/main.34ffb21c.chunk.js",
-    "main.js.map": "/cs-tech/static/js/main.34ffb21c.chunk.js.map",
+    "main.css": "/cs-tech/static/css/main.6f5c8043.chunk.css",
+    "main.js": "/cs-tech/static/js/main.4b16d123.chunk.js",
+    "main.js.map": "/cs-tech/static/js/main.4b16d123.chunk.js.map",
     "runtime-main.js": "/cs-tech/static/js/runtime-main.4535c2ef.js",
     "runtime-main.js.map": "/cs-tech/static/js/runtime-main.4535c2ef.js.map",
     "static/css/2.f6037f30.chunk.css": "/cs-tech/static/css/2.f6037f30.chunk.css",
-    "static/js/2.7ba41b90.chunk.js": "/cs-tech/static/js/2.7ba41b90.chunk.js",
-    "static/js/2.7ba41b90.chunk.js.map": "/cs-tech/static/js/2.7ba41b90.chunk.js.map",
+    "static/js/2.fd5341c5.chunk.js": "/cs-tech/static/js/2.fd5341c5.chunk.js",
+    "static/js/2.fd5341c5.chunk.js.map": "/cs-tech/static/js/2.fd5341c5.chunk.js.map",
     "index.html": "/cs-tech/index.html",
-    "precache-manifest.473e5785003c03514ffa998cd321dabc.js": "/cs-tech/precache-manifest.473e5785003c03514ffa998cd321dabc.js",
+    "precache-manifest.4b8c905d6b13223355bd70b0e99060ab.js": "/cs-tech/precache-manifest.4b8c905d6b13223355bd70b0e99060ab.js",
     "service-worker.js": "/cs-tech/service-worker.js",
     "static/css/2.f6037f30.chunk.css.map": "/cs-tech/static/css/2.f6037f30.chunk.css.map",
-    "static/css/main.178e451e.chunk.css.map": "/cs-tech/static/css/main.178e451e.chunk.css.map",
-    "static/js/2.7ba41b90.chunk.js.LICENSE.txt": "/cs-tech/static/js/2.7ba41b90.chunk.js.LICENSE.txt",
+    "static/css/main.6f5c8043.chunk.css.map": "/cs-tech/static/css/main.6f5c8043.chunk.css.map",
+    "static/js/2.fd5341c5.chunk.js.LICENSE.txt": "/cs-tech/static/js/2.fd5341c5.chunk.js.LICENSE.txt",
     "static/media/App.css": "/cs-tech/static/media/FontExo2Thin.129082a0.woff",
+    "static/media/cart.svg": "/cs-tech/static/media/cart.74735d14.svg",
     "static/media/html5.png": "/cs-tech/static/media/html5.5480beaa.png",
     "static/media/cards.css": "/cs-tech/static/media/reactjs-faded.716b77d1.png",
     "static/media/jsf.png": "/cs-tech/static/media/jsf.7fdf4443.png",
@@ -25,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.4535c2ef.js",
     "static/css/2.f6037f30.chunk.css",
-    "static/js/2.7ba41b90.chunk.js",
-    "static/css/main.178e451e.chunk.css",
-    "static/js/main.34ffb21c.chunk.js"
+    "static/js/2.fd5341c5.chunk.js",
+    "static/css/main.6f5c8043.chunk.css",
+    "static/js/main.4b16d123.chunk.js"
   ]
 }
