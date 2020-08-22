@@ -1,25 +1,25 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-//CSS
+//Styles
 import './404.css';
 
 //Components
 import Navbar from '../../components/Navbar';
 
-class NotFoundPage extends Component{
-    render() {
-        return (
-            <div className = "error-page">
-                <Navbar />
+function NotFound() {
+    return (
+        <React.Fragment>
+            <Navbar />
+            <main>
                 <div className="error-page__content">
                     <p className = "error-page__message--bold">404</p>     
                 </div>
                 <div className="error-page__content">
                     <p className = "error-page__info--light">Page not found</p>
                 </div>
-            </div>
-        );
-    }
+            </main>
+        </React.Fragment>
+    );
 }
 
-export default NotFoundPage;
+export default NotFound;

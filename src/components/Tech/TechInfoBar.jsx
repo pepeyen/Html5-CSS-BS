@@ -1,28 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-//CSS
+//Styles
 import './tech.css';
 
 
-class TechInfoBar extends Component {
-    render() {
-        return (
-            <div className = "tech-bar">
-                <div className = "tech-bar__body">
-                    <div className = "tech-bar__profile">
-                        <div className = "tech-bar__avatar--shadowed" style={{backgroundColor: this.props.color}}>
-                            <img className = "tech-bar__avatar-image" src = {this.props.techUrl} alt="Avatar"/>
-                        </div>
-                    </div>
-                    <div className = "tech-bar__description--shadowed">
-                        <p className = "tech-bar__info--extra-light">
-                            {this.props.info}
-                        </p>
+function TechInfoBar(props) {
+    return (
+        <div className = "tech-bar">
+            <div className = "tech-bar__body">
+                <div className = "tech-bar__profile">
+                    <div className = "tech-bar__avatar--shadowed" style={{backgroundColor: props.color}}>
+                        <img className = "tech-bar__avatar-image" src = {props.techUrl} alt="Avatar"/>
                     </div>
                 </div>
+                <div className = "tech-bar__description--shadowed">
+                    <p className = "tech-bar__info--extra-light"> {props.info}</p>
+                </div>
             </div>
-        );
-      }
+        </div>
+    );
 }
 
 export default TechInfoBar;

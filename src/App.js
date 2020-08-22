@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 //Multi-Page plugin
 import {  
@@ -7,33 +7,31 @@ import {
     Redirect,
 } from "react-router-dom"; 
 
-//CSS
+//Styles
 import './App.css';
 
 //Pages
-import MainPage from "./pages/index";
-import HtmlPage from "./pages/html/html5";
-import CssPage from "./pages/css/css3";
-import PhpPage from "./pages/php/php";
-import JsfPage from "./pages/jsf/jsf";
-import ReactPage from "./pages/reactjs/reactjs";
-import NotFoundPage from "./pages/error/404";
+import Home from "./pages/Home";
+import Html from "./pages/Html";
+import Css from "./pages/Css";
+import Php from "./pages/Php";
+import Jsf from "./pages/Jsf";
+import ReactJS from "./pages/ReactJS";
+import NotFound from "./pages/Error";
 
-class App extends Component {
-    render() {
-        return (
-            <Switch>
-                <Route exact path = "/" component = {MainPage} />
-                <Route exact path = "/course/html5" component = {HtmlPage} />
-                <Route exact path = "/course/css3" component = {CssPage} />
-                <Route exact path = "/course/php" component = {PhpPage} />
-                <Route exact path = "/course/jsf" component = {JsfPage} />
-                <Route exact path = "/course/reactjs" component = {ReactPage} />
-                <Route path = "/error/404" component = {NotFoundPage} />
-                <Redirect to = "/error/404" />
-            </Switch>
-        );
-    }
+function App() {
+    return (
+        <Switch>
+            <Route exact path = "/" component = {Home} />
+            <Route exact path = "/course/html5" component = {Html} />
+            <Route exact path = "/course/css3" component = {Css} />
+            <Route exact path = "/course/php" component = {Php} />
+            <Route exact path = "/course/jsf" component = {Jsf} />
+            <Route exact path = "/course/reactjs" component = {ReactJS} />
+            <Route path = "/error/404" component = {NotFound} />
+            <Redirect to = "/error/404" />
+        </Switch>
+    );
 }
 
 export default App;

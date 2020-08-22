@@ -1,44 +1,37 @@
-import React from 'react';
-import Axios from 'axios'
+import React, {useState,useEffect} from 'react';
+import Axios from 'axios';
 
-//CSS
+//Styles
 import './posts.css';
 
 //Profile avatar
 import img_user from "../../assets/user.svg";
 
-class PostFetcher extends React.Component {
-    constructor(props) {
-        super(props);
+function PostFetcher(props) {
+    const [userEmail, setUserEmail] = useState('');
+    const [userComment, setUserComment] = useState('');
 
-        this.state = {
-            posts: [],
-            postUserEmail: '',
-            postUserComment: ''
-        };
-    }
-    componentDidMount(){
+    useEffect(() => {
         Axios.get('https://jsonplaceholder.typicode.com/comments')
         .then(res =>{
-            this.setState({postUserEmail: res.data[this.props.postId].email,postUserComment: res.data[this.props.postId].body})
+            setUserEmail(res.data[props.postId].email);
+            setUserComment(res.data[props.postId].body);
         })
-    }
-    render() {
-        const {postUserEmail,postUserComment} = this.state;
-        return (
-            <div className = "post">
-                <div className = "post__body">
-                    <div className = "post__owner"> 
-                        <img className = "post__avatar" src = {img_user} alt = "Post Profile Icon"/>
-                        <pre className = "post__nickname--bold">{postUserEmail}</pre>
-                    </div>
-                    <div className = "post__comment">
-                        <p className = "post__text--light">{postUserComment}</p>  
-                    </div>
+    });
+
+    return (
+        <div className = "post">
+            <div className = "post__body">
+                <div className = "post__owner"> 
+                    <img className = "post__avatar" src = {img_user} alt = "Post Profile Icon"/>
+                    <pre className = "post__nickname--bold">{userEmail}</pre>
+                </div>
+                <div className = "post__comment">
+                    <p className = "post__text--light">{userComment}</p>  
                 </div>
             </div>
-        );
-    }
+        </div>
+    );
 }
 
 export default PostFetcher;

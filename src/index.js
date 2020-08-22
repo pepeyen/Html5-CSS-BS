@@ -5,7 +5,7 @@ import * as serviceWorker from './serviceWorker';
 //Multi-Page plugin
 import { HashRouter } from "react-router-dom"; 
 
-//CSS
+//Styles
 import './index.css';
 
 import App from './App';

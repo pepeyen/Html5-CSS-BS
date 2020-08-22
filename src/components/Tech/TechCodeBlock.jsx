@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 //Prism depedencies for code block
 import Prism from "prismjs/components/prism-core";
@@ -17,21 +17,20 @@ import "prismjs/components/prism-java";
 import "prismjs/components/prism-jsx";
 import "prismjs/components/prism-php";
 
-class TechCodeBlock extends React.Component {
-  componentDidMount() {
-    setTimeout(() => Prism.highlightAll(), 0)
-  }
-  render() {
-    return (
-      <div className = "tech-code-block">
-        <div className="tech-code-block__title--bold">Examples</div>
-        <pre className="line-numbers --shadow">
-          <code className={`language-${this.props.language}`}>
-            {this.props.code.trim()}
-          </code>
-        </pre>
-      </div>
-    )
-  }
+function TechCodeBlock(props) {
+  useEffect(() => {
+    setTimeout(() => Prism.highlightAll(), 0);
+  });
+  
+  return (
+    <div className = "tech-code-block">
+      <div className="tech-code-block__title--bold">Examples</div>
+      <pre className="line-numbers --shadow">
+        <code className={`language-${props.language}`}>
+          {props.code.trim()}
+        </code>
+      </pre>
+    </div>
+  )
 }
 export default TechCodeBlock;
