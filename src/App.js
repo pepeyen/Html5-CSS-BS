@@ -17,7 +17,6 @@ import CssPage from "./pages/css/css3";
 import PhpPage from "./pages/php/php";
 import JsfPage from "./pages/jsf/jsf";
 import ReactPage from "./pages/reactjs/reactjs";
-import CartPage from "./pages/cart/cart";
 import NotFoundPage from "./pages/error/404";
 
 class App extends Component {
@@ -30,7 +29,6 @@ class App extends Component {
                 <Route exact path = "/course/php" component = {PhpPage} />
                 <Route exact path = "/course/jsf" component = {JsfPage} />
                 <Route exact path = "/course/reactjs" component = {ReactPage} />
-                <Route exact path = "/shop/cart" component = {CartPage} />
                 <Route path = "/error/404" component = {NotFoundPage} />
                 <Redirect to = "/error/404" />
             </Switch>

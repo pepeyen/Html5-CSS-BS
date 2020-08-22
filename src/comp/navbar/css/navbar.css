@@ -18,10 +18,6 @@
 .navbar__brand--medium:hover{
     color: #3e4a61;
 }
-.cart-button--hidden{
-    visibility: hidden;
-    display: none;
-}
 /* Navbar Mobile - Using rem units because mobile resposiviness are messed up [ Google, Mozzila, Apple +pls fix >:^( ]*/
 @media only screen and (max-width: 800px) {
     .-html{
@@ -58,10 +54,5 @@
         margin-top: 1rem;
         margin-left: auto;
         margin-right: auto;
-    }
-    .navbar__brand--medium{
-        margin-top: 2rem;
-        display: block;
-        font-size: 1.4rem;
     }
 }
