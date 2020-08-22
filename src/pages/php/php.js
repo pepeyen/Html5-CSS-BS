@@ -12,7 +12,7 @@ import Footer from '../../comp/footer/Footer.js';
 
 
 const info = `
-    É uma linguagem de script do lado do servidor de código aberto que pode ser ultilizada junto com HTML para construir aplicações web e sites dinâmicos.A melhor coisa em usar o PHP é que ele é extremamente simples para um iniciante, mas oferece muitos recursos avançados para um programador profissional.
+PHP is a popular general-purpose scripting language that is especially suited to web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994; the PHP reference implementation is now produced by The PHP Group. PHP originally stood for Personal Home Page, but it now stands for the recursive initialism PHP: Hypertext Preprocessor.
 `
 const code = `
 <!DOCTYPE html>
@@ -51,7 +51,7 @@ class PhpPage extends Component{
     render() {
         return (
             <div className = "php-page">
-                <Navbar isCartVisible = {true} language="php" />
+                <Navbar language="php" />
                 <TechInfoBar 
                     techUrl = {img} 
                     color = '#7377AD' 

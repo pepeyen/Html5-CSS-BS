@@ -11,7 +11,7 @@ import PostFetcher from '../../comp/post-fetcher/PostFetcher';
 import Footer from '../../comp/footer/Footer.js';
 
 const info = `
-    O React (também denominado React.js ou ReactJS) é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário (frontend) em páginas web. É mantido pelo Facebook, Instagram, outras empresas e uma comunidade de desenvolvedores individuais. É utilizado nos sites da Netflix, Imgur, Feedly, Airbnb, SeatGeek, HelloSign, Walmart e outros.
+React (also known as React.js or ReactJS) is an open-source JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with rendering data to the DOM, and so creating React applications usually requires the use of additional libraries for state management and routing. Redux and React Router are respective examples of such libraries.
 `
 const code = `
 import React, { Component } from 'react';
@@ -39,7 +39,7 @@ class ReactPage extends React.Component {
     render() {
         return (
             <div className = "reactjs-page">
-                <Navbar isCartVisible = {true} language="jsx" />
+                <Navbar language="jsx" />
                 <TechInfoBar 
                     techUrl = {img} 
                     color = '#8DD1FB' 

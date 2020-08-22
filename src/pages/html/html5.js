@@ -11,7 +11,7 @@ import PostFetcher from '../../comp/post-fetcher/PostFetcher';
 import Footer from '../../comp/footer/Footer';
 
 const info = `
-    É uma nova versão da linguagem HTML, com novos elementos, atributos, e comportamentos e um conjunto maior de tecnologias que permite o desenvolvimento de aplicações e web sites mais diversos e poderosos. Este conjunto é chamado HTML5 & friends e muitas vezes abreviado apenas como HTML5.
+HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and latest major version of HTML that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard and is maintained by a consortium of the major browser vendors.
 `
 const code = `
 <!DOCTYPE html>
@@ -53,7 +53,7 @@ class HtmlPage extends Component{
     render() {
         return (
             <div className = "html5-page">
-                <Navbar isCartVisible = {true} language = 'html' />
+                <Navbar language = 'html' />
                 <TechInfoBar 
                     color= '#eb907a' 
                     techUrl = {img} 

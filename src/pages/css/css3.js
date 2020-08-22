@@ -11,7 +11,7 @@ import PostFetcher from '../../comp/post-fetcher/PostFetcher';
 import Footer from '../../comp/footer/Footer.js';
 
 const info = `
-É uma linguagem declarativa que controla a apresentação visual de páginas web em um navegador. O navegador aplica as declarações de estilo CSS aos elementos selecionados para exibi-los apropriadamente. Uma declaração de estilo contem as propriedades e seus valores, que determinam a aparência de uma página web.
+CSS3 is a style sheet language used for describing the presentation of a document written in a markup language like HTML providing more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content. 
 `
 const code = `
     .page-cards{
@@ -41,7 +41,7 @@ class CssPage extends Component{
     render() {
         return (
             <div className = "css3-page">
-                <Navbar isCartVisible = {true} language="css" />
+                <Navbar language="css" />
                 <TechInfoBar 
                     techUrl = {img} 
                     color = '#28A4D8' 

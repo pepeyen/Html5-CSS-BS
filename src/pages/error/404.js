@@ -10,7 +10,7 @@ class NotFoundPage extends Component{
     render() {
         return (
             <div className = "error-page">
-                <Navbar isCartVisible = {false} />
+                <Navbar />
                 <div className="error-page__content">
                     <p className = "error-page__message--bold">404</p>     
                 </div>

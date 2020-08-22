@@ -12,7 +12,7 @@ import Footer from '../../comp/footer/Footer.js';
 
 
 const info = `
-    É o framework onde é efetuada a elaboração de interfaces de usuários para sistema web, colocando componentes em um formulário e ligando os a objetos Java, sendo assim  ele faz a separação entre a lógica e regras de negocio a navegação e conexões com serviços externos seguindo o modelo MVC.
+JavaServer Faces (JSF) is a Java specification for building component-based user interfaces for web applications and was formalized as a standard through the Java Community Process being part of the Java Platform, Enterprise Edition. It is also a MVC web framework that simplifies construction of user interfaces (UI) for server-based applications by using reusable UI components in a page.
 `
 const code = `
 package com.mkyong.common;
@@ -43,7 +43,7 @@ class JsfPage extends Component{
     render() {
         return (
             <div className = "jsf-page">
-                <Navbar isCartVisible = {true} language="java" />
+                <Navbar language="java" />
                 <TechInfoBar 
                     techUrl = {img} 
                     color = '#FBAC2A' 
