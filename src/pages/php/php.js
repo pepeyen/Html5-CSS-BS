@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 //Image URL's
-import img from "../../img/php.png";
+import img from "../../assets/php.png";
 
 //Components
-import Navbar from '../../comp/navbar/Navbar.js';
-import TechInfoBar from '../../comp/tech/TechInfoBar.js';
-import TechCodeBlock  from '../../comp/tech/TechCodeBlock.js';
-import PostFetcher from '../../comp/post-fetcher/PostFetcher';
-import Footer from '../../comp/footer/Footer.js';
+import Navbar from '../../components/Navbar';
+import TechInfoBar from '../../components/Tech/TechInfoBar';
+import TechCodeBlock  from '../../components/Tech/TechCodeBlock';
+import PostFetcher from '../../components/Posts';
+import Footer from '../../components/Footer';
 
 
 const info = `

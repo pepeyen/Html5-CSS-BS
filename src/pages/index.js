@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 //Components
-import Cards from '../comp/cards/Cards.js';
-import Footer from '../comp/footer/Footer.js';
+import Cards from '../components/Cards';
+import Footer from '../components/Footer';
 
 class MainPage extends Component{
     render() {

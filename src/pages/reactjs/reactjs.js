@@ -1,14 +1,14 @@
 import React from 'react';
 
 //Image URL's
-import img from "../../img/reactjs.png";
+import img from "../../assets/reactjs.png";
 
 //Components
-import Navbar from '../../comp/navbar/Navbar.js';
-import TechInfoBar from '../../comp/tech/TechInfoBar.js';
-import TechCodeBlock  from '../../comp/tech/TechCodeBlock.js';
-import PostFetcher from '../../comp/post-fetcher/PostFetcher';
-import Footer from '../../comp/footer/Footer.js';
+import Navbar from '../../components/Navbar';
+import TechInfoBar from '../../components/Tech/TechInfoBar';
+import TechCodeBlock  from '../../components/Tech/TechCodeBlock';
+import PostFetcher from '../../components/Posts';
+import Footer from '../../components/Footer';
 
 const info = `
 React (also known as React.js or ReactJS) is an open-source JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with rendering data to the DOM, and so creating React applications usually requires the use of additional libraries for state management and routing. Redux and React Router are respective examples of such libraries.

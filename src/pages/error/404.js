@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 //CSS
-import './css/404.css';
+import './404.css';
 
-//Componets
-import Navbar from '../../comp/navbar/Navbar.js';
+//Components
+import Navbar from '../../components/Navbar';
 
 class NotFoundPage extends Component{
     render() {

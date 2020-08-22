@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 //Image URL's
-import img from "../../img/css3.png";
+import img from "../../assets/css3.png";
 
 //Components
-import Navbar from '../../comp/navbar/Navbar.js';
-import TechInfoBar from '../../comp/tech/TechInfoBar.js';
-import TechCodeBlock  from '../../comp/tech/TechCodeBlock.js';
-import PostFetcher from '../../comp/post-fetcher/PostFetcher';
-import Footer from '../../comp/footer/Footer.js';
+import Navbar from '../../components/Navbar';
+import TechInfoBar from '../../components/Tech/TechInfoBar';
+import TechCodeBlock  from '../../components/Tech/TechCodeBlock';
+import PostFetcher from '../../components/Posts';
+import Footer from '../../components/Footer';
 
 const info = `
 CSS3 is a style sheet language used for describing the presentation of a document written in a markup language like HTML providing more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content. 

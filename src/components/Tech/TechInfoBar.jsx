@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //CSS
-import './css/tech.css';
+import './tech.css';
 
 
 class TechInfoBar extends Component {

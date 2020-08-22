@@ -2,10 +2,10 @@ import React from 'react';
 import Axios from 'axios'
 
 //CSS
-import './css/post-fetcher.css';
+import './posts.css';
 
 //Profile avatar
-import img_user from "../../img/user.svg";
+import img_user from "../../assets/user.svg";
 
 class PostFetcher extends React.Component {
     constructor(props) {

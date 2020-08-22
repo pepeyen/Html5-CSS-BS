@@ -1,18 +1,18 @@
 /* Cards - Using VH units because resposiviness duhh*/
 .--html{
-    background-image: url('../../../img/html5-faded.png'); 
+    background-image: url('../../assets/html5-faded.png'); 
 }
 .--css{
-    background-image: url('../../../img/css3-faded.png');
+    background-image: url('../../assets/css3-faded.png');
 }
 .--php{
-    background-image: url('../../../img/php-faded.png');
+    background-image: url('../../assets/php-faded.png');
 }
 .--jsf{
-    background-image: url('../../../img/jsf-faded.png');
+    background-image: url('../../assets/jsf-faded.png');
 }
 .--reactjs{
-    background-image: url('../../../img/reactjs-faded.png');
+    background-image: url('../../assets/reactjs-faded.png');
 }
 .--html,.--css,.--php,.--jsf,.--reactjs{
     background-size: 50vh;

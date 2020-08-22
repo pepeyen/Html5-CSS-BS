@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 //Image URL's
-import img from "../../img/html5.png";
+import img from "../../assets/html5.png";
 
 //Components
-import Navbar from '../../comp/navbar/Navbar';
-import TechInfoBar from '../../comp/tech/TechInfoBar';
-import TechCodeBlock  from '../../comp/tech/TechCodeBlock';
-import PostFetcher from '../../comp/post-fetcher/PostFetcher';
-import Footer from '../../comp/footer/Footer';
+import Navbar from '../../components/Navbar';
+import TechInfoBar from '../../components/Tech/TechInfoBar';
+import TechCodeBlock  from '../../components/Tech/TechCodeBlock';
+import PostFetcher from '../../components/Posts';
+import Footer from '../../components/Footer';
 
 const info = `
 HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and latest major version of HTML that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard and is maintained by a consortium of the major browser vendors.

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom"; 
 
 //CSS
-import './css/cards.css';
+import './cards.css';
 
 class Cards extends Component {
     render() {
