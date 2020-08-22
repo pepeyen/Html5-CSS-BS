@@ -53,8 +53,10 @@ function Jsf() {
                     plugins={["line-numbers"]}
                 />
                 <div className = "user-posts">
-                    <PostFetcher postId = '42' />
-                    <PostFetcher postId = '58' />
+                <PostFetcher 
+                    postMinRange={42} 
+                    postMaxRange={48}
+                /> 
                 </div>
             </main>
             <Footer />

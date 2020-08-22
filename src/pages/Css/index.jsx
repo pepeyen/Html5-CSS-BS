@@ -51,9 +51,10 @@ function Css() {
                     language="css"
                 />
                 <div className = "user-posts">
-                    <PostFetcher postId = '44' />
-                    <PostFetcher postId = '15' />
-                    <PostFetcher postId = '26' />
+                <PostFetcher 
+                    postMinRange={36} 
+                    postMaxRange={44}
+                /> 
                 </div>
             </main>
             <Footer />

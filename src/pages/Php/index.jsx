@@ -60,12 +60,10 @@ function Php() {
                     language="php"
                 />
                 <div className = "user-posts">
-                    <PostFetcher postId = '99' />
-                    <PostFetcher postId = '23' />
-                    <PostFetcher postId = '39' />
-                    <PostFetcher postId = '33' />
-                    <PostFetcher postId = '67' />
-                    <PostFetcher postId = '78' />
+                    <PostFetcher 
+                        postMinRange={90} 
+                        postMaxRange={99}
+                    /> 
                 </div>
             </main>
             <Footer />

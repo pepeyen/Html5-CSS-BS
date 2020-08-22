@@ -64,12 +64,10 @@ function Html() {
                     language = 'html'
                 />
                 <div className = "user-posts">
-                    <PostFetcher postId = '8' />
-                    <PostFetcher postId = '2' />
-                    <PostFetcher postId = '3' />
-                    <PostFetcher postId = '4' />
-                    <PostFetcher postId = '5' />
-                    <PostFetcher postId = '6' />
+                <PostFetcher 
+                    postMinRange={12} 
+                    postMaxRange={18}
+                /> 
                 </div>
             </main>
             <Footer />

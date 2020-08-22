@@ -48,9 +48,10 @@ function ReactJS() {
                     language="jsx"
                 />
                 <div className = "user-posts">
-                    <PostFetcher postId = '10' />
-                    <PostFetcher postId = '32' />
-                    <PostFetcher postId = '50' />
+                    <PostFetcher 
+                        postMinRange={0} 
+                        postMaxRange={10}
+                    /> 
                 </div>
             </main>
             <Footer />
