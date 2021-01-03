@@ -7,9 +7,7 @@ import './navbar.css';
 function Navbar(props) {
     return (
         <header className={`navbar -${props.language}`} >
-            <div className = "navbar__section">
-                <Link className="navbar__brand--medium" to = "/" >CS Tech</Link>
-            </div>               
+            <Link className = "navbar__section" to = "/">CS Tech</Link>               
         </header>         
     );
 }

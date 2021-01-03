@@ -17,7 +17,7 @@ import Css from "./pages/Css";
 import Php from "./pages/Php";
 import Jsf from "./pages/Jsf";
 import ReactJS from "./pages/ReactJS";
-import NotFound from "./pages/Error";
+import NotFound from "./pages/error";
 
 function App() {
     return (

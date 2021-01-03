@@ -4,19 +4,22 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 1vh; 
-    height: 5vh;
+    padding: 2vh 1vh 1vh 1vh;
 }
-.navbar__brand--medium{
-    font-size: 2.5vh;
+.navbar__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: #1a2639;
+    font-size: 2.5vh;
     font-family: Exo2-Medium;
+}
+.navbar__section:hover{
+    color: #3e4a61;
 }
 .navbar__icon:hover{
     opacity: 0.5;
-}
-.navbar__brand--medium:hover{
-    color: #3e4a61;
 }
 /* Navbar Mobile - Using rem units because mobile resposiviness are messed up [ Google, Mozzila, Apple +pls fix >:^( ]*/
 @media only screen and (max-width: 800px) {
@@ -36,8 +39,7 @@
         background-color: #8DD1FB;
     }
     .navbar{
-        height: 15rem;
-        padding: 1.5rem; 
+        padding: 3rem 1.5rem 1.5rem 1.5rem; 
         display: flexbox;
         justify-content: space-around;
         flex-direction: column;
