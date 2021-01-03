@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "79c48399860411ba60be00643a89bebc",
+    "revision": "72095555a72ea35ff5cee2292daba3a7",
     "url": "/cs-tech/index.html"
   },
   {
-    "revision": "cabbd9dc8aa3189e9fd5",
+    "revision": "168df67c5f38bc93fcdd",
     "url": "/cs-tech/static/css/2.f6037f30.chunk.css"
   },
   {
-    "revision": "7542681c6d18a25f5bd9",
-    "url": "/cs-tech/static/css/main.6f5c8043.chunk.css"
+    "revision": "5c0a7d9430760be7d1b5",
+    "url": "/cs-tech/static/css/main.06fde00a.chunk.css"
   },
   {
-    "revision": "cabbd9dc8aa3189e9fd5",
-    "url": "/cs-tech/static/js/2.fd5341c5.chunk.js"
+    "revision": "168df67c5f38bc93fcdd",
+    "url": "/cs-tech/static/js/2.8ed17699.chunk.js"
   },
   {
-    "revision": "6331f70a3ea8aafd2e3fca1343e5ed47",
-    "url": "/cs-tech/static/js/2.fd5341c5.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/cs-tech/static/js/2.8ed17699.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7542681c6d18a25f5bd9",
-    "url": "/cs-tech/static/js/main.4b16d123.chunk.js"
+    "revision": "5c0a7d9430760be7d1b5",
+    "url": "/cs-tech/static/js/main.5a77cb95.chunk.js"
   },
   {
     "revision": "06fe9110a31802f30468",
@@ -46,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "129082a0a23d95c0a240dc56c589694d",
     "url": "/cs-tech/static/media/FontExo2Thin.129082a0.woff"
-  },
-  {
-    "revision": "74735d14cafedb546ae885e7d603323c",
-    "url": "/cs-tech/static/media/cart.74735d14.svg"
   },
   {
     "revision": "5480beaa53b5dd49f1f5879ff9148933",
