@@ -1,6 +1,6 @@
-# cs-tech
+[![cs-tech](https://raw.githubusercontent.com/pepeyen/cs-tech/master/.github/images/project-thumbnail.png)](https://pepeyen.github.io/cs-tech)
 
-## [Live demo](https://pepeyen.github.io/cs-tech)
+# cs-tech
 
 ### tl;dr
 
